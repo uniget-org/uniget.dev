@@ -29,7 +29,7 @@ menu:
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 200
   - identifier: bug
-    name: <i class='fa-solid fa-bug'></i> Report a bug <i class='fa-solid fa-bug'></i>
+    name: Report a bug
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 300
   - identifier: enhancement
