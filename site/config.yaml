@@ -38,5 +38,5 @@ menu:
     weight: 400
   - identifier: contribute
     name: Become a contributor
-    url: https://github.com/uniget-org/cli/issues/new/choose
+    url: https://github.com/uniget-org/cli/blob/main/CONTRIBUTING.md
     weight: 400
