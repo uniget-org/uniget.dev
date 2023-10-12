@@ -1,12 +1,12 @@
 baseURL: https://uniget.dev
-title: uniget
+title: uni(versal)get
 theme:
 - github.com/1bl4z3r/hermit-V2
 languageCode: en-us
 
 params:
   author: Nicholas Dille
-  homeSubtitle: The container tools updater and installer
+  homeSubtitle: The universal installer and updater for (container) tools
   homeSubtitlePrinter: true
   themeColor: "#494f5c"
   footerCopyright: ' &#183; Nicholas Dille - licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
@@ -24,3 +24,7 @@ menu:
     name: Documentation
     url: https://docs.uniget.dev
     weight: 100
+  - identifier: contribute
+    name: Issues, feedback and contributions
+    url: https://github.com/uniget-org/cli
+    weight: 200
