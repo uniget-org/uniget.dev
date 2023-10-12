@@ -24,19 +24,19 @@ menu:
     name: Documentation
     url: https://docs.uniget.dev
     weight: 100
+  - identifier: security
+    name: Report a security vulnerability
+    url: https://github.com/uniget-org/cli/issues/new/choose
+    weight: 200
   - identifier: bug
     name: Report a bug
     url: https://github.com/uniget-org/cli/issues/new/choose
-    weight: 200
+    weight: 300
   - identifier: enhancement
     name: Submit a feature suggestion
-    url: https://github.com/uniget-org/cli/issues/new/choose
-    weight: 300
-  - identifier: security
-    name: Report a security vulnerability
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 400
   - identifier: contribute
     name: Become a contributor
     url: https://github.com/uniget-org/cli/blob/main/CONTRIBUTING.md
-    weight: 400
+    weight: 500
