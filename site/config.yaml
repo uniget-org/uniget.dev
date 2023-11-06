@@ -16,7 +16,7 @@ params:
 
 menu:
   main:
-  - identifier: tools
+  - identifier: quickstart
     name: 🚀 Quickstart 🚀
     url: https://docs.uniget.dev/installation/
     weight: 50
