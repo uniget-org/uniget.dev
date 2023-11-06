@@ -17,26 +17,30 @@ params:
 menu:
   main:
   - identifier: tools
-    name: Included tools
+    name: 🚀 Quickstart 🚀
+    url: https://docs.uniget.dev/installation/
+    weight: 50
+  - identifier: tools
+    name: 🧰 Included tools 🧰
     url: https://tools.uniget.dev
     weight: 70
   - identifier: docs
-    name: Documentation
+    name: 📕 Documentation 📕
     url: https://docs.uniget.dev
     weight: 100
   - identifier: security
-    name: Report a security vulnerability
+    name: 🔒 Report a security vulnerability 🔒
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 200
   - identifier: bug
-    name: Report a bug
+    name: 🐛 Report a bug 🐛
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 300
   - identifier: enhancement
-    name: Submit a feature suggestion
+    name: ⭐ Submit a feature suggestion ⭐
     url: https://github.com/uniget-org/cli/issues/new/choose
     weight: 400
   - identifier: contribute
-    name: Become a contributor
+    name: ✎ Become a contributor ✎
     url: https://github.com/uniget-org/cli/blob/main/CONTRIBUTING.md
     weight: 500
