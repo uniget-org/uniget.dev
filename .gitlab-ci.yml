@@ -1,0 +1,22 @@
+include:
+- project: uniget-org/templates
+  file: uniget.yaml
+  ref: main
+
+pages:
+  extends:
+  - .uniget-install
+  image: python:3.13.0-slim
+  script:
+  - |
+    uniget install \
+        hugo \
+        go
+  - |
+    hugo \
+        --source site \
+        --minify \
+        --destination public
+  artifacts:
+    paths:
+    - public
