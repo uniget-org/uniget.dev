@@ -13,10 +13,8 @@ pages:
         hugo \
         go
   - |
-    hugo \
-        --source site \
-        --minify \
-        --destination public
+    make site
+    mv site/public .
   artifacts:
     paths:
     - public
